@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rubik: ['var(--font-rubik)', 'sans-serif'],
+        merriweather: ['var(--font-merriweather)', 'serif'],
+        'ibm-plex-mono': ['var(--font-ibm-plex-mono)', 'monospace'],
+      },
       colors: {
         primary: {
-          400: '#FFAE4F',
-          600: '#FA6E62',
+          400: '#FBBF24',
+          600: '#D97706',
         },
       },
       height: {

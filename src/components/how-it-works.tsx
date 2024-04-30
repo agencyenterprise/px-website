@@ -29,10 +29,10 @@ export function HowItWorks() {
         <PxCommandBox command="px start" />
       </div>
       <div className="w-full max-w-md space-y-6">
-        <h2 className="text-5xl font-bold leading-14 tracking-tight">
+        <h2 className="font-merriweather text-5xl font-bold leading-14">
           How it works?
         </h2>
-        <p className="text-xl font-light tracking-tight">
+        <p className="text-xl font-light leading-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente
           sint animi voluptate velit, corporis quidem deleniti soluta, culpa
           dolorem vel. Dolor alias a vitae quidem blanditiis quod tenetur odio?

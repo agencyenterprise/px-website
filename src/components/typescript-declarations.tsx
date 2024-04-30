@@ -11,10 +11,10 @@ export function TypeScriptDeclarations() {
   return (
     <section className="flex items-center gap-16 py-32">
       <div className="w-full max-w-md space-y-6">
-        <h2 className="text-5xl font-bold leading-14 tracking-tight">
+        <h2 className="font-merriweather text-5xl font-bold leading-14">
           Install TypeScript declarations
         </h2>
-        <p className="text-xl font-light tracking-tight">
+        <p className="text-xl font-light leading-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem minus
           voluptatibus cumque blanditiis adipisci explicabo eaque perspiciatis
           eligendi nulla! Iusto velit accusantium quis minima repellendus fugiat

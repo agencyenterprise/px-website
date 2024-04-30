@@ -18,7 +18,7 @@ export function PxCommandBox({ command }: PxCommandBoxProps) {
       </div>
 
       <div className="absolute inset-x-0 -bottom-4">
-        <Image src={pxLogo} alt="" className="mx-auto size-8" />
+        <Image src={pxLogo} alt="" className="mx-auto size-8 rounded-md" />
       </div>
     </div>
   )

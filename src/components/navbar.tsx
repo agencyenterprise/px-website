@@ -7,7 +7,7 @@ import { GradientButton } from './gradient-button'
 
 export function Navbar() {
   return (
-    <div className="w-full border-b border-neutral-700">
+    <div className="w-full border-b border-white/25">
       <nav className="mx-auto flex h-30 w-full max-w-7xl items-center justify-between">
         <Image src={pxCliLogo} alt="" />
 

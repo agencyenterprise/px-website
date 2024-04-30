@@ -20,8 +20,8 @@ export function CommandBox({
   return (
     <code
       className={cn(
-        'flex items-center gap-2.5 border rounded-md border-neutral-700 w-fit px-4 py-2 font-medium text-2xl leading-7 whitespace-nowrap',
-        size === 'sm' && 'text-lg',
+        'flex items-center gap-3.5 border rounded-md border-neutral-700 w-fit px-4 py-2 font-medium text-2xl leading-7 whitespace-nowrap',
+        size === 'sm' && 'text-lg gap-3',
         className,
       )}
       {...props}
