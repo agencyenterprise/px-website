@@ -4,12 +4,12 @@ import Image from 'next/image'
 
 import copyIcon from '@/assets/icons/copy.svg'
 
-const COMMAND = 'npm install -g @ae-studio/px'
+const INSTALL_COMMAND = 'npm install -g @ae-studio/px'
 
-export function CommandBox() {
+export function InstallCommandBox() {
   const handleCopyCommand = async () => {
     try {
-      await navigator.clipboard.writeText(COMMAND)
+      await navigator.clipboard.writeText(INSTALL_COMMAND)
     } catch (error) {
       console.error('Failed to copy content:', error)
     }
@@ -21,7 +21,7 @@ export function CommandBox() {
       className="flex cursor-copy items-center gap-3 rounded-md border border-white p-6 py-4 transition-all hover:brightness-75"
       onClick={handleCopyCommand}
     >
-      <code className="text-lg font-medium">$ {COMMAND}</code>
+      <code className="text-lg font-medium">$ {INSTALL_COMMAND}</code>
       <Image src={copyIcon} alt="" className="size-6" />
     </button>
   )

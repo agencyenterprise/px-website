@@ -18,6 +18,7 @@ export function Navbar() {
             target="_blank"
           >
             <Image src={githubLogo} alt="" />
+            <span className="sr-only">Open GitHub repository</span>
           </a>
 
           <GradientButton asChild>

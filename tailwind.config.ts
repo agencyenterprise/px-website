@@ -15,7 +15,10 @@ const config: Config = {
         },
       },
       height: {
-        '30': '7.5rem',
+        30: '7.5rem',
+      },
+      lineHeight: {
+        14: '3.5rem',
       },
     },
   },
