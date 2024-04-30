@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="mx-auto w-full max-w-7xl">
+      <main className="mx-auto w-full max-w-7xl px-8">
         <Hero />
         <Separator />
         <HowItWorks />

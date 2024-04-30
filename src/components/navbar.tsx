@@ -8,10 +8,10 @@ import { GradientButton } from './gradient-button'
 export function Navbar() {
   return (
     <div className="w-full border-b border-white/25 bg-black">
-      <nav className="mx-auto flex h-30 w-full max-w-7xl items-center justify-between">
-        <Image src={pxCliLogo} alt="" priority />
+      <nav className="mx-auto flex h-24 w-full max-w-7xl items-center justify-between px-4 sm:h-30">
+        <Image src={pxCliLogo} alt="" priority className="w-20 sm:w-auto" />
 
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6 sm:gap-8">
           <a
             href="https://github.com/agencyenterprise/px-cli"
             className="transition-all hover:brightness-75"

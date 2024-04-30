@@ -6,16 +6,20 @@ import { GradientButton } from './gradient-button'
 
 export function JoinUs() {
   return (
-    <section className="flex items-center justify-center gap-24 py-32">
-      <div className="rounded-md bg-white/15 p-8">
-        <Image src={aeStudioLogo} alt="Agency Enterprise" />
+    <section className="flex flex-col items-center justify-center gap-16 py-24 sm:gap-24 sm:py-32 lg:flex-row">
+      <div className="rounded-md bg-white/15 p-6 sm:p-8">
+        <Image
+          src={aeStudioLogo}
+          alt="Agency Enterprise"
+          className="w-24 sm:w-auto"
+        />
       </div>
-      <div className="max-w-lg space-y-6">
-        <h2 className="font-merriweather text-5xl font-bold leading-14">
+
+      <div className="flex w-full flex-col items-center gap-6 sm:max-w-lg lg:items-start">
+        <h2 className="font-merriweather text-2xl font-bold sm:text-3xl sm:!leading-14 lg:text-5xl">
           Join Us
         </h2>
-
-        <p className="text-xl font-light leading-8">
+        <p className="text-center text-lg font-light sm:text-xl sm:leading-8 lg:text-start">
           Work with the{' '}
           <strong className="font-semibold">
             world&apos;s most effective developers

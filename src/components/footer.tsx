@@ -5,7 +5,7 @@ import npmIcon from '@/assets/logos/npm.svg'
 export function Footer() {
   return (
     <div className="border-t border-white/25">
-      <footer className="mx-auto flex h-30 w-full max-w-7xl items-center justify-between">
+      <footer className="mx-auto flex h-24 w-full max-w-7xl items-center justify-between px-4 sm:h-30">
         <span className="text-xs text-neutral-500">
           &copy; {new Date().getFullYear()} AE Studio | px
         </span>
@@ -16,7 +16,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="transition-all hover:brightness-75"
         >
-          <Image src={npmIcon} alt="npm icon" />
+          <Image src={npmIcon} alt="" />
           <span className="sr-only">Open npm package</span>
         </a>
       </footer>
