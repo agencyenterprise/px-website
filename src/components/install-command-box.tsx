@@ -18,7 +18,7 @@ export function InstallCommandBox() {
   return (
     <button
       title="Copy command to install with npm"
-      className="flex cursor-copy items-center gap-3 rounded-md border border-white p-6 py-4 transition-all hover:brightness-75"
+      className="flex cursor-copy items-center gap-3 whitespace-nowrap rounded-md border border-white p-6 py-4 transition-all hover:brightness-75"
       onClick={handleCopyCommand}
     >
       <code className="text-lg font-medium">$ {INSTALL_COMMAND}</code>

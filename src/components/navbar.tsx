@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import githubLogo from '@/assets/logos/github.svg'
-import pxLogo from '@/assets/logos/px.svg'
+import pxCliLogo from '@/assets/logos/px-cli.svg'
 
 import { GradientButton } from './gradient-button'
 
@@ -9,7 +9,7 @@ export function Navbar() {
   return (
     <div className="w-full border-b border-neutral-700">
       <nav className="mx-auto flex h-30 w-full max-w-7xl items-center justify-between">
-        <Image src={pxLogo} alt="" />
+        <Image src={pxCliLogo} alt="" />
 
         <div className="flex items-center gap-8">
           <a
