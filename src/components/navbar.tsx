@@ -1,20 +1,20 @@
 import Image from 'next/image'
 
-import githubLogo from '@/assets/github.svg'
-import pxLogo from '@/assets/logo.svg'
+import githubLogo from '@/assets/logos/github.svg'
+import pxLogo from '@/assets/logos/px.svg'
 
 import { GradientButton } from './gradient-button'
 
 export function Navbar() {
   return (
     <div className="w-full border-b border-neutral-700">
-      <nav className="mx-auto flex h-28 w-full max-w-7xl items-center justify-between">
+      <nav className="mx-auto flex h-30 w-full max-w-7xl items-center justify-between">
         <Image src={pxLogo} alt="" />
 
         <div className="flex items-center gap-8">
           <a
             href="https://github.com/agencyenterprise/px-cli"
-            className="transition-all hover:brightness-90"
+            className="transition-all hover:brightness-75"
             target="_blank"
           >
             <Image src={githubLogo} alt="" />

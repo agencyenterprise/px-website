@@ -18,7 +18,7 @@ export function GradientButton({
   return (
     <Comp
       className={cn(
-        'px-4 py-2 rounded-md text-black font-medium from-primary-400 to-primary-600 bg-gradient-to-r hover:brightness-90 transition-all',
+        'px-4 py-2 rounded-md text-black font-medium from-primary-400 to-primary-600 bg-gradient-to-r hover:brightness-75 transition-all',
         className,
       )}
       {...props}

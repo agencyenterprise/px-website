@@ -14,6 +14,9 @@ const config: Config = {
           600: '#FA6E62',
         },
       },
+      height: {
+        '30': '7.5rem',
+      },
     },
   },
   plugins: [],
