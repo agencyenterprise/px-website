@@ -7,9 +7,9 @@ import { GradientButton } from './gradient-button'
 
 export function Navbar() {
   return (
-    <div className="w-full border-b border-white/25">
+    <div className="w-full border-b border-white/25 bg-black">
       <nav className="mx-auto flex h-30 w-full max-w-7xl items-center justify-between">
-        <Image src={pxCliLogo} alt="" />
+        <Image src={pxCliLogo} alt="" priority />
 
         <div className="flex items-center gap-8">
           <a
@@ -17,7 +17,7 @@ export function Navbar() {
             className="transition-all hover:brightness-75"
             target="_blank"
           >
-            <Image src={githubLogo} alt="" />
+            <Image src={githubLogo} alt="" priority />
             <span className="sr-only">Open GitHub repository</span>
           </a>
 

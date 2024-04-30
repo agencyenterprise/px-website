@@ -42,7 +42,7 @@ export function TypeScriptDeclarations() {
           </div>
         </div>
 
-        <Image src={tsDeclarationsArrows} alt="" />
+        <Image src={tsDeclarationsArrows} alt="" className="w-[600px]" />
 
         <PxCommandBox command="px install bcryptjs" />
       </div>
