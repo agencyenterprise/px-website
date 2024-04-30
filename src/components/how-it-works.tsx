@@ -9,7 +9,7 @@ export function HowItWorks() {
   return (
     <section className="flex items-center gap-16 py-32">
       <div className="flex flex-1 items-center justify-center">
-        <div className="grid w-fit gap-10">
+        <div className="grid w-fit gap-9">
           <CommandBox
             segments={[{ text: 'npm run', highlighted: true }, { text: 'dev' }]}
             className="w-full"
@@ -33,11 +33,9 @@ export function HowItWorks() {
           How it works?
         </h2>
         <p className="text-xl font-light tracking-tight">
-          There are multiple JavaScript runtimes and package managers. To name
-          the main ones, we have <strong>npm, pnpm, yarn, deno and bun.</strong>{' '}
-          It&apos;s common developers use more than one in a daily basis,
-          specially when working in different projects, because each project
-          uses one or another.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente
+          sint animi voluptate velit, corporis quidem deleniti soluta, culpa
+          dolorem vel. Dolor alias a vitae quidem blanditiis quod tenetur odio?
         </p>
       </div>
     </section>
