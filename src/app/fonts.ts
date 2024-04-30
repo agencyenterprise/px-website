@@ -2,7 +2,7 @@ import { IBM_Plex_Mono, Merriweather, Rubik } from 'next/font/google'
 
 export const rubik = Rubik({
   subsets: ['latin'],
-  weight: ['300', '400'],
+  weight: ['300', '400', '600'],
   variable: '--font-rubik',
 })
 
