@@ -1,5 +1,6 @@
 import Image from 'next/image'
 
+import { AE_JOIN_US_LINK } from '@/app/config/ae'
 import aeStudioLogo from '@/assets/logos/ae-studio.svg'
 
 import { GradientButton } from './gradient-button'
@@ -31,11 +32,7 @@ export function JoinUs() {
         </p>
 
         <GradientButton asChild>
-          <a
-            href="https://ae.studio/join-us"
-            target="_blank"
-            className="block w-fit"
-          >
+          <a href={AE_JOIN_US_LINK} target="_blank" className="block w-fit">
             Join Us
           </a>
         </GradientButton>

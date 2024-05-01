@@ -24,3 +24,21 @@ export function GradientButton({
     />
   )
 }
+
+export function TextGradientButton({
+  asChild,
+  className,
+  ...props
+}: GradientButtonProps) {
+  const Comp = asChild ? Slot : 'button'
+
+  return (
+    <Comp
+      className={cn(
+        'rounded-md text-gradient-primary font-medium from-transparent to-transparent transition-all font-ibm-plex-mono hover:brightness-75 p-2',
+        className,
+      )}
+      {...props}
+    />
+  )
+}

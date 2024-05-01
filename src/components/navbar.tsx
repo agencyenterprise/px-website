@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
+import { AE_JOIN_US_LINK, AE_LINK } from '@/app/config/ae'
 import githubLogo from '@/assets/logos/github.svg'
 import pxCliLogo from '@/assets/logos/px-cli.svg'
 
-import { GradientButton } from './gradient-button'
+import { GradientButton, TextGradientButton } from './gradient-button'
 
 export function Navbar() {
   return (
@@ -11,7 +12,7 @@ export function Navbar() {
       <nav className="mx-auto flex h-24 w-full max-w-7xl items-center justify-between px-4 sm:h-30">
         <Image src={pxCliLogo} alt="" priority className="w-20 sm:w-auto" />
 
-        <div className="flex items-center gap-6 sm:gap-8">
+        <div className="flex items-center gap-4 sm:gap-6">
           <a
             href="https://github.com/agencyenterprise/px-cli"
             className="transition-all hover:brightness-75"
@@ -23,10 +24,16 @@ export function Navbar() {
           </a>
 
           <GradientButton asChild>
-            <a href="https://ae.studio/join-us" target="_blank">
+            <a href={AE_JOIN_US_LINK} target="_blank">
               Join Us
             </a>
           </GradientButton>
+
+          <TextGradientButton asChild className="!hidden sm:!inline-flex">
+            <a href={AE_LINK} target="_blank">
+              Hire Us
+            </a>
+          </TextGradientButton>
         </div>
       </nav>
     </div>

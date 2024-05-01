@@ -6,7 +6,6 @@ import tsDeclarationsArrows from '@/assets/ts-declarations-arrow.svg'
 import { CommandBox } from './command-box'
 import { PxCommandBox } from './px-command-box'
 
-// TODO Update copy
 export function TypeScriptDeclarations() {
   return (
     <section className="flex flex-col items-center gap-10 py-24 sm:gap-16 sm:py-32 lg:flex-row">
