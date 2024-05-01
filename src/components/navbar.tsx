@@ -25,7 +25,7 @@ export function Navbar() {
 
           <GradientButton asChild>
             <a href={AE_JOIN_US_LINK} target="_blank">
-              Join Us
+              We&apos;re Hiring!
             </a>
           </GradientButton>
 

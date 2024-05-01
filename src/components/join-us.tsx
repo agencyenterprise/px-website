@@ -18,7 +18,7 @@ export function JoinUs() {
 
       <div className="flex w-full flex-col items-center gap-6 sm:max-w-lg lg:items-start">
         <h2 className="font-merriweather text-2xl font-bold sm:text-3xl sm:!leading-14 lg:text-5xl">
-          Join Us
+          We&apos;re Hiring!
         </h2>
         <p className="text-center text-lg font-light sm:text-xl sm:leading-8 lg:text-start">
           Work with the{' '}
