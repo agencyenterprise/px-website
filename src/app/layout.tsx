@@ -1,6 +1,7 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
+import Script from 'next/script'
 
 import { siteConfig } from './config/site'
 import { ibmPlexMono, merriweather, rubik } from './fonts'
@@ -49,6 +50,7 @@ export default function RootLayout({
       <body
         className={`${ibmPlexMono.variable} ${merriweather.variable} ${rubik.variable}`}
       >
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
         {children}
       </body>
     </html>
