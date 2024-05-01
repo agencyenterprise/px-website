@@ -16,6 +16,7 @@ export function Navbar() {
             href="https://github.com/agencyenterprise/px-cli"
             className="transition-all hover:brightness-75"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Image src={githubLogo} alt="" priority />
             <span className="sr-only">Open GitHub repository</span>

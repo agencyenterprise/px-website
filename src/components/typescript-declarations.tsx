@@ -20,10 +20,17 @@ export function TypeScriptDeclarations() {
           Install TypeScript declarations
         </h2>
         <p className="text-lg font-light sm:text-xl sm:leading-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem minus
-          voluptatibus cumque blanditiis adipisci explicabo eaque perspiciatis
-          eligendi nulla! Iusto velit accusantium quis minima repellendus fugiat
-          libero odit illo inventore!
+          In TypeScript projects you always need to install the types for the
+          packages you are using. This is required so TypeScript can understand
+          the package and provide you with a better DX.
+          <br />
+          <br />
+          Instead of installing the TypeScript declarations manually,{' '}
+          <strong className="text-gradient-primary">px</strong> allows you to
+          install them with a{' '}
+          <strong className="text-gradient-primary">single command</strong>. It
+          detects if a package has a TypeScript declaration package and it
+          automatically installs it for you!
         </p>
       </div>
       <div className="flex flex-1 flex-col items-center gap-5">

@@ -40,9 +40,14 @@ export function HowItWorks() {
           How it works?
         </h2>
         <p className="text-lg font-light sm:text-xl sm:leading-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sapiente
-          sint animi voluptate velit, corporis quidem deleniti soluta, culpa
-          dolorem vel. Dolor alias a vitae quidem blanditiis quod tenetur odio?
+          There are multiple JavaScript runtimes and package managers nowadays,
+          and it&apos;s common to see developers using more than one in a daily
+          basis.
+          <br />
+          <br /> Instead of switching tools when working on different projects,{' '}
+          <strong className="text-gradient-primary">px</strong> allows you to
+          run the same command across different package managers. It detects the
+          package manager in use and runs the command for you!
         </p>
       </div>
     </section>
