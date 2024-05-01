@@ -16,13 +16,16 @@ export function KeepMeInTheLoop() {
 
       const email = new FormData(event.currentTarget).get('email') as string
       const body = `userGroup=${encodeURIComponent('pxcli.com')}&email=${encodeURIComponent(email)}`
-      const response = await fetch('https://app.loops.so', {
-        method: 'POST',
-        body,
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+      const response = await fetch(
+        'https://app.loops.so/api/newsletter-form/clpsl4mk5008ml20ozvjha4wy',
+        {
+          method: 'POST',
+          body,
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
         },
-      })
+      )
 
       if (response.ok) {
         setHasSubscribed(true)
