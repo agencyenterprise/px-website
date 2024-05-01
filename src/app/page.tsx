@@ -3,7 +3,7 @@ import { Hero } from '@/components/hero'
 import { HowItWorks } from '@/components/how-it-works'
 import { JoinUs } from '@/components/join-us'
 import { Navbar } from '@/components/navbar'
-import { Separator } from '@/components/separator'
+import { Separator } from '@/components/ui/separator'
 import { TypeScriptDeclarations } from '@/components/typescript-declarations'
 
 export default function Home() {

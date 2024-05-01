@@ -4,7 +4,7 @@ import { AE_JOIN_US_LINK, AE_LINK } from '@/app/config/ae'
 import githubLogo from '@/assets/logos/github.svg'
 import pxCliLogo from '@/assets/logos/px-cli.svg'
 
-import { GradientButton, TextGradientButton } from './gradient-button'
+import { GradientButton, TextGradientButton } from './ui/gradient-button'
 
 export function Navbar() {
   return (

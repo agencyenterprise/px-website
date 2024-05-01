@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 import howItWorksArrows from '@/assets/how-it-works-arrows.svg'
 
-import { CommandBox } from './command-box'
-import { PxCommandBox } from './px-command-box'
-import { Separator } from './separator'
+import { CommandBox } from './ui/command-box'
+import { PxCommandBox } from './ui/px-command-box'
+import { Separator } from './ui/separator'
 
 export function HowItWorks() {
   return (

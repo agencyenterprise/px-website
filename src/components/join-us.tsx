@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { AE_JOIN_US_LINK } from '@/app/config/ae'
 import aeStudioLogo from '@/assets/logos/ae-studio.svg'
 
-import { GradientButton } from './gradient-button'
+import { GradientButton } from './ui/gradient-button'
 
 export function JoinUs() {
   return (

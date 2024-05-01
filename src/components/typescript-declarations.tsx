@@ -3,8 +3,8 @@ import Image from 'next/image'
 import typescriptLogo from '@/assets/logos/typescript.svg'
 import tsDeclarationsArrows from '@/assets/ts-declarations-arrow.svg'
 
-import { CommandBox } from './command-box'
-import { PxCommandBox } from './px-command-box'
+import { CommandBox } from './ui/command-box'
+import { PxCommandBox } from './ui/px-command-box'
 
 export function TypeScriptDeclarations() {
   return (
