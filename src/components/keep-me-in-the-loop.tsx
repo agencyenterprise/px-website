@@ -15,7 +15,7 @@ export function KeepMeInTheLoop() {
       setIsSubscribing(true)
 
       const email = new FormData(event.currentTarget).get('email') as string
-      const body = `userGroup=${encodeURIComponent('px-cli')}&email=${encodeURIComponent(email)}`
+      const body = `userGroup=${encodeURIComponent('pxcli.com')}&email=${encodeURIComponent(email)}`
       const response = await fetch('https://app.loops.so', {
         method: 'POST',
         body,
